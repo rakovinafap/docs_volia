@@ -98,8 +98,8 @@ nButton.addEventListener('click', function (e) {
   
 
   
-const pageResulOne = "http://127.0.0.1:5500/volia-docs.space/volia-docs.space/result.html";
-const pageResulSecond = "http://127.0.0.1:5500/volia-docs.space/volia-docs.space/resultNakladnaya.html";
+const pageResulOne = "https://docs-volia.vercel.app/result.html";
+const pageResulSecond = "https://docs-volia.vercel.app/resultNakladnaya.html";
 const hrefOne = '<a href="'+pageResulOne+'">Счет-Фактура</a>';
 const hrefSecont = '<a href="'+pageResulSecond+'">Накладная</a>';
 /* var img = "<img src=\'img/doc1.png\' width=\'50px\' height=\'50px\'>"; */

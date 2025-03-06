@@ -7,8 +7,8 @@ function validate() {
     var password = document.getElementById("password").value;
     
   
-    if (username == "admin" || password == "kerui2017") {
-      window.location.href = 'http://127.0.0.1:5500/volia-docs.space/volia-docs.space/form.html'; 
+    if (username == "admin" && password == "foltex12") {
+      window.location.href = 'https://docs-volia.vercel.app/form.html'; 
       return true;
      
     } else  {
