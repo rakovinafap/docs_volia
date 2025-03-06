@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счет фактура</title>
+    <link rel="icon" type="image/x-icon" href="img/doc2.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main">
+<br>
+<table class="headTable">
+    <tr>
+        <td class="myTags">
+            <div class="myTag">
+                <u>Постачальник</u>
+            </div>
+        </td>
+        <td>
+            <div>
+<span class="myPaymentDetails">
+    <table class="seller">
+         <span>?</span> <br>
+         <span>?</span><span>?</span> <br>
+         <span>?</span> <br>
+         <span>?</span>
+         <span>?</span> <br>
+         <span>?</span> <br>
+         <span>?</span> <br>
+         <span>?</span>
+    </table>
+</span>          
+           </div>
+        </td>
+    </tr>
+    <br>
+    <tr>
+        <td>
+            <div class="myTag">
+                <u>Одержувач</u>
+           </div>
+        </td>
+        <td>
+            <div>
+                <br>
+                <span class="organization">Название получателя</span> <br>
+                <span class="phoneNumberOrganization">тел. (068-13-21)</span>
+           </div>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="myTags">
+            <div class="myTag">
+                <u>Платник</u>
+           </div>
+        <td>
+            <div>
+                <span>той самий</span>
+           </div>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="myTag">
+            <div>
+                <u>Замовлення</u>
+           </div>
+           <td>
+            <div>
+                <span>Без замовлення</span>
+           </div>
+        </td>
+    </tr>  
+</table>
+
+<br>
+
+<div class="documentName1">Рахунок-фактура № B-00000001</div>
+<div class="date">від 3 Січня 2023 р.</div>
+
+<br>
+
+<table class="mainTable" border="1" width="100%" cellpadding="2" cellspacing="2">
+    <thead class="inMainTable">
+    <tr class="headColor">
+        <th style="width:13mm;">№</th>
+        <th>Назва</th>
+        <th style="width:17mm;">Од.</th>
+        <th style="width:20mm;">Кількість</th>  
+        <th style="width:27mm;">Ціна без ПДВ</th>
+        <th style="width:27mm;">Сума без ПДВ</th>
+    </tr>
+    </thead>
+    <tbody class="inMainTable" id="mainTable">
+      <tr class="firstStr">
+        <!-- <td style="width:13mm;">1</td>
+        <td>Наименование товара</td>
+        <td style="width:20mm;">Кол-во</td>
+        <td style="width:17mm;">Шт.</td>
+        <td style="width:27mm;">Цена</td>
+        <td style="width:27mm;">Сумма</td> -->
+    </tr class="nextStr">
+    </tbody>
+</table>
+
+<table width="100%" cellpadding="1" cellspacing="1">
+    <tr>
+        <td></td>
+        <td style="width:27mm; font-weight:bold;  text-align: right;">Всього:</td>
+        <td class="sumAll" style="width:27mm; font-weight:bold;  text-align: right; ">0.00</td>
+    </tr>
+
+</table>
+
+<br>
+
+<br/>
+<div class="downPriceTotal">
+<p>Всього на сумму:</p>
+<b class="totalText">#Переменная значения</b>
+<p>Без ПДВ</p>
+</div>
+
+<br/><br/>
+
+
+<div class="podpis">
+    <p class ="imgPodpis">photo</p>
+    <p>Виписав(ла):  ______________________ </p>
+    <p><b class="dateEnd">data+5</b></p>
+</div>
+
+
+
+
+<script src="js/scriptResult.js"></script>
+</body>
+</html>
